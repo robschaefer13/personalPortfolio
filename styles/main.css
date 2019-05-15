@@ -1,0 +1,72 @@
+body {
+  padding-bottom: 5rem;
+}
+
+
+header {
+  background: url(../images/question-mark-1872665.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+
+h1 {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+.slogan {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+
+h1 {
+/* ROBERT SCHAEFER */
+  color: #ffffff;
+  font: 4.0rem "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  padding-top: 250px;
+
+}
+
+.slogan {
+/* Accomplished UX Researcher */
+  color: #FF0000;
+  font: 2.0rem "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  padding-top: 0px;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
