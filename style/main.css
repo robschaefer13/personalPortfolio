@@ -2,6 +2,7 @@ body {
   padding-bottom: 5rem;
 }
 
+
 header {
   background: url(../images/question-mark-1872665.png) center / cover;
   height: 60vh;
@@ -10,22 +11,30 @@ header {
 }
 
 
+h1 {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+.slogan {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
 
 h1 {
 /* ROBERT SCHAEFER */
   color: #ffffff;
-  font: 4.0rem "SF UI Display", sans-serif;
+  font: 4.0rem "Helvetica Neue", sans-serif;
   font-weight: 600;
-  padding-top: 250px;
-
 }
 
 .slogan {
 /* Accomplished UX Researcher */
-  color: #2CC832;
+  color: #FF0000;
   font: 2.0rem "Helvetica Neue", sans-serif;
   font-weight: 400;
-  padding-top: 0px;
 }
 
 main {
@@ -42,7 +51,7 @@ main {
 
 footer.mdl-mini-footer {
   bottom: 0;
-    padding: 0.5rem;
+  padding: 0.5rem;
   position: fixed;
   width: 100%;
   z-index: 1;
